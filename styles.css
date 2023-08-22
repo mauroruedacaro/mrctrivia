@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+h1 {
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+}
+
+.choice {
+    margin-bottom: 5px;
+}
+#score {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
